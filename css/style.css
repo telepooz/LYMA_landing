@@ -1,0 +1,305 @@
+body{
+    font-family: Montserrat ;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.header {
+
+}
+
+.header-menu {
+
+    display: flex;
+    
+    
+    padding-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.menu-list {
+    display: flex;
+    
+   
+}
+.menu-item + .menu-item{
+    padding-left: 32px;
+ 
+    
+}
+.menu-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1.67px;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+    padding: 0 10px;
+}
+
+.menu-link:hover{
+    color: #000;
+
+}
+
+.menu-link span{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 18px;
+    transition: all 0.2s;
+}
+
+.menu-link span:hover{
+    background-color: rgb(38, 18, 18);
+}
+
+
+.header-logo {
+    padding-left: 60px;
+    padding-right: 100px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+.future-inner {
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 274px;
+    margin-bottom: 20px;
+
+}
+.future-title {
+    font-family: Roboto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 67px;
+    color: #fff;
+    padding-top: 275px;
+    margin-bottom: 33px;
+}
+.future-descr {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+
+}
+.future-link-seplement {
+    border: solid 1px #fff;
+    padding: 9px 49px;
+    color: #fff;
+    transition: all 0.3s;
+    
+    
+}
+
+.future-link-seplement:hover{
+    background-color: rgba(70, 28, 28, 0.859);
+    opacity: 0.75;
+}
+
+.future-link-laser {
+    border: solid 1px #fff;
+    padding: 9px 80px;
+    color: #fff;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+
+.future-link-laser:hover{
+    background-color: rgba(70, 28, 28, 0.859);
+    opacity: 0.75;
+}
+
+.link-inner{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+.laser-wrapper{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-gap: 20px;
+}
+.suplement-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 43px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 13px;
+    padding-top: 310px;
+    
+}
+.suplement-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+    margin-bottom: 25px;
+    
+}
+
+
+
+
+.laser-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 43px;
+    color: #fff;
+    text-align: center;
+    padding-top: 310px;
+    margin-bottom: 13px;
+   
+}
+.laser-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+    margin-bottom: 25px;
+}
+.laser-links {
+    background-image: url(../img/laser-img.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    
+}
+
+
+.suplement-links {
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+
+.laser-link{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.laser-discover {
+    margin-right: 125px;
+    transition: all 0.3s;
+    opacity: 0.75;
+    padding: 5px 10px;
+    border: solid 1px #fff;
+    
+}
+
+.laser-discover:hover{
+    background-color: rgba(70, 28, 28, 0.859);
+}
+
+.laser-buy{
+    transition: all 0.3s;
+    opacity: 0.75;
+    padding: 5px 10px;
+    border: solid 1px #fff;
+    
+}
+
+.laser-buy:hover{
+    background-color: rgba(70, 28, 28, 0.859);
+}
+
+
+.suplement-discover {
+    margin-right: 125px;
+    transition: all 0.3s;
+    opacity: 0.75;
+    padding: 5px 10px;
+    border: solid 1px #fff;
+    
+    
+}
+
+.suplement-discover:hover{
+    background-color: rgba(70, 28, 28, 0.859);
+}
+
+.suplement-buy {
+    margin-right: 125px;
+    transition: all 0.3s;
+    opacity: 0.75;
+    padding: 5px 10px;
+    border: solid 1px #fff;
+    
+}
+
+.suplement-buy:hover{
+    background-color: rgba(70, 28, 28, 0.859);
+}
+
+
+
+
