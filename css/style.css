@@ -169,6 +169,7 @@ li{
  display: grid;
  grid-template-columns: repeat(2, 1fr);
  grid-gap: 20px;
+ margin-bottom: 16px;
 }
 .suplement-title {
     font-family: 'Roboto';
@@ -192,8 +193,6 @@ li{
     margin-bottom: 25px;
     
 }
-
-
 
 
 .laser-title {
@@ -293,11 +292,153 @@ li{
     opacity: 0.75;
     padding: 5px 10px;
     border: solid 1px #fff;
-    
+
 }
 
 .suplement-buy:hover{
     background-color: rgba(70, 28, 28, 0.859);
+}
+
+
+
+
+
+.black{
+    margin-bottom: 16px;
+}
+
+.black-title {
+    font-family: 'Roboto';
+    padding-top: 66px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 43px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.black-fon {
+    background-color: #000;
+}
+
+.black-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 39px;
+}
+
+.black-desc {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    max-width: 555px;
+    padding-bottom: 83px;
+
+    
+}
+
+.inno{
+    margin-bottom: 16px;
+}
+
+.inno-title {
+    margin: 0 auto;
+    padding-top: 291px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 43px;
+    margin-bottom: 28px;
+    max-width: 556px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.inno-images {
+    background-image: url(../img/body-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 729px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.inno-link-seplement {
+    border: solid 1px #fff;
+    padding: 8px 48px;
+    color: #fff;
+    transition: all 0.3s;
+    margin-right: 40px;
+}
+.inno-link-seplement:hover{
+    background-color: rgba(70, 28, 28, 0.859);
+}
+
+.inno-link-laser {
+    border: solid 1px #fff;
+    padding: 8px 80px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.inno-link-laser:hover{
+    background-color: rgba(70, 28, 28, 0.859);
+}
+
+
+
+
+.meet{
+    
+}
+
+.meet-img {
+    background-image: url(../img/body-bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 430px;
+    position: relative;
+}
+.meet-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: 0.5px;
+    color: #1B1B1B;
+    padding-top: 136px;
+    margin-bottom: 33px;
+   
+}
+.meet-desc {
+    font-size: 16px;
+    line-height: 25px;
+    color: #666666;
+    margin-bottom: 12px;
+    max-width: 349px;
+    
+}
+.meet-link {
+    color: #1B1B1B;
+    font-size: 14px;
+    letter-spacing: 2px;
+    
+}
+
+.inno-inner{
+   position: absolute;
+   right: 323px;
 }
 
 
