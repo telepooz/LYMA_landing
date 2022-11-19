@@ -16,7 +16,9 @@ li{
 
 
 
-
+.future, .laser, .black,  .inno{
+    display: none;
+}
 
 
 
@@ -398,6 +400,7 @@ li{
 
 
 .meet{
+    margin-bottom: 156px;
     
 }
 
@@ -439,6 +442,62 @@ li{
 .inno-inner{
    position: absolute;
    right: 323px;
+}
+
+
+
+
+
+.label-texts {
+    display: flex;
+}
+.label-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #1B1B1B;
+    margin-bottom: 39px;
+    
+}
+
+.label-text-a{
+    max-width: 85px;
+    padding-right: 52px;
+    
+}
+
+.label-text-b{
+    max-width: 329px;
+    padding-right: 70px;
+}
+
+.label-text-c{
+    max-width: 329px;
+    padding-right: 63px;
+}
+
+.label-text-d{
+    max-width: 336px;
+    padding-right: 70px;
+}
+.img-slide{
+    position: absolute;
+    right: 870px;
+  
+}
+.label-img + .label-img {
+    padding-left: 110px;
+    
+    
+}
+
+.label-images{
+    margin-bottom: 35px;
+    position: relative;
 }
 
 
